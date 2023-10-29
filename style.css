@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px #00000021;
+}
+.app-header h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form{
+    width: 100%;
+}
+.form form{
+    width: 100%;
+    display: flex;
+}
+.form form input{
+    width: 70%;
+    padding: 10px 15px;
+    border: none;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form form button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: aquamarine;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form form input:focus{
+    outline: none;
+}
+.to-do-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.to-do-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:azure;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.to-do-list h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+}
+.to-do-list span{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.to-do-list span i{
+    font-size: 20px;
+    background-color: aquamarine;
+    padding: 7px;
+    border-radius: 5px;
+}
+.to-do-list span i:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
